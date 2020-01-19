@@ -1,0 +1,73 @@
+/*@font-face {
+    font-family: 'Bluu Next';
+    src: url(fonts/bluunext.woff), url(fonts/bluunext.woff);
+  }*/
+  @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+  body {
+    font-family: 'Poppins', 'Bluu Next', Times New Roman;
+    font-size: 24px;
+    line-height: 1.25;
+    letter-spacing: -3px;
+  
+    background-color: #00FF75;
+    background-image: linear-gradient(180deg, #ffffff, rgba(255, 255, 255, 0));
+  
+    color: #000000;
+  
+    height: 100vh;
+  
+    transition: background-color 1s;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.27, 1.55)
+  }  
+
+  h1 {
+      font-size: 24px;
+      margin: 10px 0 10px 0;
+      letter-spacing: 0px;
+  }
+
+  h2 {
+      font-size: 8vmin;
+      margin-top: 0px;
+  }
+
+  section {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform:translate(-50%,-50%);
+      width: 60%;
+      text-align: center;
+  }
+
+  section a {
+      color: #000000;
+  }
+
+  section div.circle {
+      width: 20px;
+      height: 20px;
+      background-color:#4200FF;
+      border-radius: 50%;
+      display: inline-block;
+
+      transition: background-color 0.5s;
+  }
+
+  footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+  }
+
+  footer img {
+      margin: 0 10px 0 10px;
+      cursor: pointer;
+  }
